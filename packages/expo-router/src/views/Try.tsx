@@ -3,7 +3,7 @@
 import React, { Component, type ComponentType, type PropsWithChildren } from 'react';
 
 import * as SplashScreen from './Splash';
-import { MetroServerError } from '../rsc/router/errors';
+import { MetroServerError } from '@expo/router-server/build/rsc/router/errors';
 
 /** Props passed to a page's `ErrorBoundary` export. */
 export type ErrorBoundaryProps = {

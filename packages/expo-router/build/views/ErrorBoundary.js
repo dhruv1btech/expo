@@ -8,7 +8,7 @@ const react_native_1 = require("react-native");
 const react_native_safe_area_context_1 = require("react-native-safe-area-context");
 const Pressable_1 = require("./Pressable");
 const Link_1 = require("../link/Link");
-const errors_1 = require("../rsc/router/errors");
+const errors_1 = require("@expo/router-server/build/rsc/router/errors");
 function StandardErrorView({ error }) {
     return (<react_native_1.View style={{
             marginBottom: 12,
